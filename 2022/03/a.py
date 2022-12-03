@@ -13,7 +13,5 @@ with open("input.txt") as input_data:
                 total += ord(letter) - ord("A") + 27
             else:
                 total += ord(letter) - ord("a") + 1
-        
-        print(f"Total for {shared_letter} is {total}")
 
     print(f"Total is {total}")
