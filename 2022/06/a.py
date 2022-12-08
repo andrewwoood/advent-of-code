@@ -19,7 +19,7 @@ def main():
                     seen.pop(leftmost_char)
 
                 left += 1
-    
+
             seen[char] += 1
 
 main()
